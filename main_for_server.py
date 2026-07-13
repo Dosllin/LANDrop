@@ -1,0 +1,1 @@
+import socketfrom Searcher import screamHOST = socket.gethostbyname(socket.gethostname())PORT = 8080devices = []server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)server.bind((HOST, PORT))server.listen()while not server.accept():    scream()while True:    client, addr = server.accept()    data = client.recv(10000)    print(data.decode("utf-8"))
