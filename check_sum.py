@@ -1,0 +1,1 @@
+def gen_check_sum(data, n=16):    pass
