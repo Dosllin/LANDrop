@@ -1,1 +1,1 @@
-def gen_check_sum(data, n=16):    pass
+import jsonanother_user = json.loads('{"s":1}')print(another_user)
