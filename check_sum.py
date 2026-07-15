@@ -1,1 +1,0 @@
-import jsonanother_user = json.loads('{"s":1}')print(another_user)
